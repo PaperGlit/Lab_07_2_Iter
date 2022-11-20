@@ -38,9 +38,7 @@ int Sum(int** a, const int rowCount, const int colCount)
 {
 	int S = 0;
 	for (int i = 1; i < colCount; i += 2)
-	{
 		S += Min(a, i, rowCount);
-	}
 	return S;
 }
 
